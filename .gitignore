@@ -25,3 +25,45 @@ __pycache__/
 # Specifieke Python-bestanden negeren
 *.dat
 *.log
+
+# Systeem- en gebruikersspecifieke bestanden uitsluiten
+/.gitconfig
+/.lesshst
+/NTUSER.DAT*
+/ntuser.dat.LOG1
+/ntuser.dat.LOG2
+/ntuser.ini
+
+# Windows systeemmappen uitsluiten
+/AppData/
+/Contacts/
+/Downloads/
+/Favorites/
+/Links/
+/Music/
+/Saved Games/
+/Searches/
+/Videos/
+/Documents/
+/Mijn documenten/
+/Menu Start/
+/NetHood/
+/Netwerkprinteromgeving/
+/Recent/
+/SendTo/
+/Sjablonen/
+
+# VS Code instellingen negeren
+.vscode/
+
+# Specifieke Python-bestanden negeren
+pygame2.py
+schoolgame.py
+test.py
+testpygame.py
+
+# Pycharm projecten negeren
+/PycharmProjects/
+
+# Afbeeldingen en andere mediabestanden uitsluiten
+/images/
