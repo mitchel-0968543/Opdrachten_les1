@@ -67,3 +67,46 @@ testpygame.py
 
 # Afbeeldingen en andere mediabestanden uitsluiten
 /images/
+
+
+# Systeem- en gebruikersbestanden negeren
+/.gitconfig
+/.lesshst
+/NTUSER.DAT*
+/ntuser.dat.LOG1
+/ntuser.dat.LOG2
+/ntuser.ini
+
+# Windows systeemmappen uitsluiten
+/AppData/
+/Contacts/
+/Downloads/
+/Favorites/
+/Links/
+/Music/
+/Saved Games/
+/Searches/
+/Videos/
+/Documents/
+/Mijn documenten/
+/Menu Start/
+/NetHood/
+/Netwerkprinteromgeving/
+/Recent/
+/SendTo/
+/Sjablonen/
+
+# VS Code en PyCharm instellingen negeren
+.vscode/
+/PycharmProjects/
+
+# Specifieke Python-bestanden negeren
+pygame2.py
+schoolgame.py
+test.py
+testpygame.py
+
+# Afbeeldingen en andere mediabestanden negeren
+/images/
+/*.png
+
