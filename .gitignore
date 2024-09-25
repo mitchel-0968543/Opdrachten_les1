@@ -106,6 +106,34 @@ schoolgame.py
 test.py
 testpygame.py
 
+# Systeem- en configuratiebestanden
+*.log
+*.tmp
+*.ini
+.DS_Store
+Thumbs.db
+
+# Windows systeemmappen
+/AppData/
+/Contacts/
+/Downloads/
+/Favorites/
+/Links/
+/Music/
+/NTUSER.DAT*
+/PycharmProjects/
+/Saved Games/
+/Searches/
+/Videos/
+
+# VSCode map
+.vscode/
+
+# Onedrive specifieke bestanden
+*.lnk
+*.ini
+
+
 # Afbeeldingen en andere mediabestanden negeren
 /images/
 /*.png
